@@ -1,11 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.jennaemorgan.phoneticdifficulty.PrimaryController">
-    <children>
-        <Label fx:id="label" text="Label" />
-    </children>
-</StackPane>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.jennaemorgan.phoneticdifficulty.PrimaryController">
+   <children>
+      <Label fx:id="label" alignment="CENTER" layoutX="115.0" minWidth="-Infinity" prefHeight="109.0" prefWidth="370.0" text="Label" textAlignment="CENTER" />
+      <TextField fx:id="txtFld" layoutX="208.0" layoutY="123.0" onAction="#handleTxtFld" promptText="Enter Word Here" />
+      <Button fx:id="btnθ" layoutX="58.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="θ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+<Button fx:id="btnð" layoutX="109.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ð">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button><!--
+-->      <Button fx:id="btnɾ" layoutX="165.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ɾ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnɹ" layoutX="216.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ɹ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnʧ" layoutX="261.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ʧ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnʤ" layoutX="312.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ʤ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnʃ" layoutX="372.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ʃ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnʒ" layoutX="423.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ʒ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnŋ" layoutX="475.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ŋ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnʔ" layoutX="527.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleBtn" text="ʔ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnæ" layoutX="58.0" layoutY="270.0" mnemonicParsing="false" onAction="#handleBtn" text="æ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnʊ" layoutX="387.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleBtn" text="ʊ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnɑ" layoutX="117.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleBtn" text="ɑ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnɛ" layoutX="180.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleBtn" text="ɛ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnə" layoutX="230.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleBtn" text="ə">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnɔ" layoutX="338.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleBtn" text="ɔ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnɪ" layoutX="286.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleBtn" text="ɪ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnɚ" layoutX="450.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleBtn" text="ɚ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

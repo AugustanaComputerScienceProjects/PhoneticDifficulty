@@ -10,13 +10,31 @@ package com.github.jennaemorgan.phoneticdifficulty;
  * @author Jenna Morgan <jennaedenmorgan@gmail.com>
  */
 public abstract class Letter {
+
     private char ipaChar;
-    
+
+    /**
+     *
+     * @param ch a char indicating a particular speech sound
+     */
     public Letter(char ch) {
         ipaChar = ch;
     }
-    
+
+    /**
+     *
+     * @return the char representation of this Letter
+     */
     public char getChar() {
         return ipaChar;
+    }
+
+    /**
+     *
+     * @return the String representation of this Letter
+     */
+    @Override
+    public String toString() {
+        return "" + ipaChar;
     }
 }

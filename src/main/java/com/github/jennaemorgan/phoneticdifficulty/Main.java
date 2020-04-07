@@ -18,7 +18,9 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 480);
+        scene.setRoot(FXMLLoader.load(getClass().getResource("primary.fxml")));
         stage.setScene(scene);
+        stage.setTitle("IPC Calculator");
         stage.show();
     }
 
